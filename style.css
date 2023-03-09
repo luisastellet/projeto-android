@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: header;
+    src: url();
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #84e1ad;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px 2px black ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 0px;
+
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    letter-spacing: -1px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slogan {
+    margin-bottom: 0px;
+}
+
+.slogan2{
+    margin-top: 5px;
+}
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, rgba(41,147,87,255), #82daa9);
+    width: 100%;
+    
+}
+
+.abas {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 0.75em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding-bottom: 5px;
+}
+
+.destaque {
+    color: #25834f;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0.2px 0.2px 0.8px black;
+}
+
+main {
+    background-color: #84e1ad;
+    padding: 0px 50px 0px 40px;
+    height: 100%;
+}
+
+div > h1 {
+    margin-top: 0px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'idroid';
+    color: #1a5c38;
+}
+
+div > p {
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+div {
+    background-color: white;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #90ccab, white);
+    font-family: idroid;
+    color: #164e2f;
+    padding-left: 15px;
+    margin: 0px 15px;
+    
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -1px;
+    font-size: 0.95em;
+    text-align: justify;
+    text-indent: 20px;
+
+}
+
+.espaço {
+    text-align: center;
+    width: auto;
+    margin: 0px 10px;
+}
+
+.video {
+    background-color: #164e2f;
+    padding: 20px 30px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 13px;
+    border-radius: 0px;
+}
+
+footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #c0eed4fa;
+    margin: 0px 15px;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    box-shadow: 2px 1px 5px rgba(192, 192, 192, 0.918);
+}
+
+ul {
+    list-style-type: none;
+    list-style: url(imagens/check-p.ico);
+    font-size: 0.9em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: white;
+    background-color: #5bbd87;
+
+    margin: 0px 15px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 0px 10px 10px;
+    box-shadow: 2px 0px 5px rgba(192, 192, 192, 0.918);
+    text-shadow: 2px 1px 3px rgba(153, 153, 153, 0.918);
+}
+
+li > span {
+    text-decoration: underline;
+}
+
+.bloco {
+    background-color: #c0eed4fa;
+    float: left;
+    width: 50%;
+}
+
+#final {
+    padding: 0px 17px 30px 15px;
+    margin-bottom: 15px;
+}
+
+#créditos {
+    background-color: #164e2f;
+    color: white;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 7px 0px 8px 0px;
+    border-radius: 0px;
+}
